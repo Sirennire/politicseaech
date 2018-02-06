@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+    <title>Candidates</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+
+  <body><!---->
+
+    <div class="container">
+
+      <br>
+      <div id="blue" class="row blue-grey darken-2 white-text center z-depth-3">
+        <br>
+        <h1 class="blue-grey darken-2 white-text center">Get To Know Your Politicians</h1>
+        <br>
+      </div><!--rowDIV-->
+
+      <div class="row"> <h5 class="orange-text center">Enter your address to see your representatives.</h5>
+      </div><!--rowDIV-->
+
+      <div class="row" id="input-fields">
+            <div class="col s1"></div><!--emptycolDIV-->
+            <div class="input-field col s3">
+                <input value="" id="street" type="text" class="validate">
+                <label class="active" for="street">Street</label>
+            </div><!--inputcolDIV-->
+            <div class="input-field col s3">
+                <input value="" id="city-name" type="text" class="validate">
+                <label class="active" for="city-name">City</label>
+            </div><!--inputcolDIV-->
+            <div class="input-field col s2">
+                <input value="" id="state" type="text" class="validate">
+                <label class="active" for="city-name">State</label>
+            </div><!--inputcolDIV-->
+            <div id="run-search" class="col s2 btn btn-small orange white-text center">SUBMIT
+            </div><!--inputcolDIV-->
+            <div class="col s1"></div><!--emptycolDIV-->
+      </div><!--rowDIV-->
+
+      <div class="row" id="hide">
+            <div class="col s4"><p class="orange-text">NATIONAL LEVEL</p>
+            </div><!--colDIV-->
+            <div class="col s4"></div><!--emptycolDIV-->
+            <div class="col s4"><p id="national-division-level" style="text-align: right" class="green-text"></p>
+            </div><!--colDIV-->
+      </div><!--rowDIV-->
+
+      <div class="row" id="hide5">
+        <div class="col s12">
+            <ul class="collapsible" data-collapsible="accordion" id="test">
+            </ul>
+        </div>
+      </div>
+
+      <div id="hide2" class="row">
+            <div class="col s4"><p class="orange-text">STATE LEVEL</p>
+            </div><!--colDIV-->
+            <div class="col s4"></div><!--emptycolDIV-->
+            <div class="col s4"><p id="state-division-level" style="text-align: right" class="green-text"></p>
+            </div><!--colDIV-->
+      </div><!--rowDIV-->
+
+      <div class="row" id="hide6">
+        <div class='col s12'>
+            <ul class="collapsible" data-collapsible="accordion" id="test-state">
+            </ul>
+        </div>
+      </div>
+
+      <div id="hide3" class="row">
+            <div class="col s4"><p class="orange-text">COUNTY LEVEL</p>
+            </div><!--colDIV-->
+            <div class="col s4"></div><!--emptycolDIV-->
+            <div class="col s4"><p id="county-division-level" style="text-align: right" class="green-text"></p>
+            </div><!--colDIV-->
+      </div><!--rowDIV-->
+
+      <div class="row" id="hide7">
+          <div class="col s12">
+            <ul class="collapsible" data-collapsible="accordion" id="test-county">
+            </ul>
+          </div>
+      </div>
+
+      <div class="row" id="hide4">
+            <div class="col s4"><p class="orange-text">LOCAL LEVEL</p>
+            </div><!--colDIV-->
+            <div class="col s4"></div><!--emptycolDIV-->
+            <div class="col s4"><p id="local-division-level" style="text-align: right" class="green-text"></p>
+            </div><!--colDIV-->
+      </div><!--rowDIV-->
+
+      <div class="row" id="hide8">
+          <div class="col s12">
+            <ul class="collapsible" data-collapsible="accordion" id="test-local">
+            </ul>
+          </div>
+      </div>
+
+  </div><!--DIV CONTAINER-->
+
+   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+   <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <!-- Code to the JavaScript File -->
+
+<script type="text/javascript" src="app.js"></script>
+
+
+    </body>
+  </html>
